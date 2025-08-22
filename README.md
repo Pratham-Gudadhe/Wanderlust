@@ -16,7 +16,8 @@ A full-stack web application built with Node.js, Express, EJS, and CSS—powered
 ## Overview
 Wanderlust is designed to help users explore and manage travel destinations. Powered by a friendly UI and robust backend, it offers a seamless experience whether you're discovering new places or planning your next trip.
 
-*(Optional: Add a screenshot or live demo link here)*
+
+Live Demo - https://wanderlust-0418.vercel.app/
 
 ## Features
 - **Browse Destinations**: View existing travel spots with details like name, description, and images.  
@@ -37,21 +38,21 @@ Wanderlust is designed to help users explore and manage travel destinations. Pow
 - **Utilities & Helpers**: Located in `/utils` directory  
 
 ## Repository Structure
-Wanderlust/
-├── controllers/ # Route handlers and business logic
-├── init/ # Initialization scripts (e.g., DB connection)
-├── models/ # Mongoose models / schemas
-├── routes/ # Express route definitions
-├── utils/ # Utility/helper functions
-├── views/ # EJS templates
-├── public/ # Static assets: CSS, JS, images
-├── app.js # Express app setup
-├── cloudConfig.js # Cloud service (images) configuration
-├── middleware.js # Custom middleware (e.g., auth)
-├── Schema.js # Database schema or seed data
-├── package.json
-├── package-lock.json
-└── vercel.json # Deployment configuration
+Wanderlust/  
+├── controllers/ # Route handlers and business logic  
+├── init/ # Initialization scripts (e.g., DB connection)  
+├── models/ # Mongoose models / schemas  
+├── routes/ # Express route definitions  
+├── utils/ # Utility/helper functions  
+├── views/ # EJS templates  
+├── public/ # Static assets: CSS, JS, images  
+├── app.js # Express app setup  
+├── cloudConfig.js # Cloud service (images) configuration  
+├── middleware.js # Custom middleware (e.g., auth)  
+├── Schema.js # Database schema or seed data  
+├── package.json  
+├── package-lock.json  
+└── vercel.json # Deployment configuration  
 
 ## Installation & Setup
 1. **Clone the repository**

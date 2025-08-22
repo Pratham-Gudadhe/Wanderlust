@@ -72,10 +72,6 @@ app.listen(8080 , () =>{
     console.log("Server is Listening to port 8080");
 });
 
-// app.get("/" , (req,res) =>{
-//     res.send("Hi, I am Root");
-// });
-
 // Session
 app.use(session(sessionOptions));
 app.use(flash());
